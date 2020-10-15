@@ -1,0 +1,267 @@
+body {
+    background-color: #f5f5f5;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+/* Global CSS */
+
+.primary-color {
+    color :#5900ff;
+}
+
+.primary-color-bg {
+    background-color: #5900ff;
+    color: white;
+}
+
+.cta-btn {
+    height: 50px;
+    padding: 5px 20px;
+    text-transform: uppercase;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: .5s ease-in-out;
+}
+
+.cta-btn:hover {
+    text-decoration: none;
+    background: #ee4136;
+    color: white;
+}
+
+.cta-btn i {
+    margin-right: 10px;
+}
+
+
+.full-page-section {
+    height: 100vh;
+    max-width: 100%;
+}
+
+/* Header */
+
+
+
+/******* MENU */
+
+.menu {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.menu .menu-list ul {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0;
+    margin: 0;
+    margin-right: 30px;
+}
+
+.menu .menu-list ul li {
+    list-style: none;
+    margin: 0 20px;
+}
+
+.menu .menu-list ul li a {
+    text-decoration: none;
+    color: #212121;
+    font-weight: 600;
+}
+
+.menu .menu-list ul li a:hover {
+    color: #5900ff;
+}
+
+.menu .menu-list ul li .sub-menu { 
+    display: none;
+}
+
+.menu .icons {
+    margin-right: 20px;
+}
+
+
+/* Home Section */
+
+#home-section .content {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+}
+
+#home-section .content .heading-big {
+    font-weight: 800;
+    font-size: 90px;
+}
+
+#home-section .content .default-description {
+    font-size: 18px;
+    line-height: 30px;
+    margin: 20px 0 30px 0;
+}
+
+#home-section .image img {
+    height: 80%;
+    padding-top: 60px;
+    padding-left: 50px;
+}
+
+/* Institucional */
+
+#institucional .video-thumb {
+    box-shadow: 0 0 13px 4px #dee0e0;
+}
+
+#institucional .video-thumb img {
+    width: 100%;
+}
+
+#institucional .video-thumb:before {
+    content: '';
+    background: #600bff1a;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+#institucional .video-thumb .video-play-button {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#institucional .video-thumb .video-play-button img {
+    height: 90px;
+    width: 90px;
+    border-radius: 150px;
+}
+
+.col-lg-6.col-12.content {
+    padding-left: 35px;
+}
+.heading {
+    padding-left: 20px;
+    margin-bottom: 63px;
+
+}
+
+.heading h3.section-title {
+    font-size: 46px;
+    font-weight: 500;
+
+}
+
+.box-with-image .title {
+    font-size: 23px;
+    font-weight: 500;
+}
+
+.box-with-image {
+    display: flex;
+    align-items: center;
+    align-content: center;
+    
+   
+}
+ .box-with-image i.fas.fa-trophy {
+    font-size: 50px;
+    padding-right: 25px;
+    color: #7c78ea;
+}
+
+.box-with-image i.far.fa-gem{
+    font-size: 50px;
+    padding-right: 25px;
+    color: #7c78ea;
+
+}
+
+
+/* Serviços */
+
+#services .box-description .title {
+    font-size:22px;
+    margin-bottom: 21px;
+    font-weight: 600;
+    
+}
+
+#services .service-box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 200px;
+    text-align: center;
+}
+
+#services .service-box i {
+    font-size: 40px;
+    color: #7c78ea;
+}
+
+#services .service-box div.title {
+    font-size: 22px;
+    font-weight: 500;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+#services .service-box div.description {
+    font-size: 18px;
+    margin-bottom: 200px;
+}
+
+
+/* Qualidade */
+
+#skills .heading {
+    text-align: center;
+}
+
+ #skills.heading h3.section-title {
+    font-size: 57px;
+    font-weight: 600;
+    padding-bottom: 21px;
+}
+
+#skills .heading p.section-description {
+    font-size: 18px;
+    font-weight: 400;
+    color: #6f6f6f;
+}
+
+
+/* Planos e Preços */
+
+#pricing .heading {
+    text-align: center;
+}
+
+#pricing.heading h3.section-title {
+    font-size: 57px;
+    font-weight: 600;
+    padding-bottom: 30px;
+}
+
+#pricing .heading p.section-description {
+    font-size: 18px;
+    font-weight: 400;
+    color: #6f6f6f;
+}
+
+
