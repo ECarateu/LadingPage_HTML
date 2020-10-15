@@ -229,6 +229,7 @@ body {
 
 /* Qualidade */
 
+
 #skills .heading {
     text-align: center;
 }
@@ -244,6 +245,18 @@ body {
     font-weight: 400;
     color: #6f6f6f;
 }
+
+#skills .skill-boxes {
+    display: flex;
+    text-align: center;
+    /* padding: 13px; */
+}
+#skills .title {
+    font-size: 24px;
+    font-weight: bolder;
+    /* font-stretch: extra-expanded; */
+}
+
 
 
 /* Planos e Preços */
@@ -263,5 +276,3 @@ body {
     font-weight: 400;
     color: #6f6f6f;
 }
-
-
